@@ -1,0 +1,23 @@
+<html>
+	<head><title>Weather Forecast</title></head>
+<body>
+	<h1> The current temperature (C) is : {{ temp }} degrees. </h1>
+<h1> Weather is: {{weather}}</h1>
+
+{% if weather == "Haze" %}
+<img src="/static/Haze.png" alt="Haze">
+{% elif weather == "Clear" %}
+<img src="/static/clear.jpg" alt="Clear">
+{% elif weather == "Rain" %}
+<img src="/static/Rainy.png" alt="Rainy">
+{% elif weather == "Thunderstorm" %}
+<img src="/static/thunderstorm.jpg" alt="Thunderstorm">
+{% elif weather == "Cloudy" %}
+<img src="/static/cloudy.jpg" alt="Cloudy">
+{% elif weather == "Sunny" %}
+<img src="/static/sunny.jpg" alt="Sunny">
+{% endif %}
+
+
+</body>
+</html>
