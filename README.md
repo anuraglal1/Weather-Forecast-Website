@@ -2,9 +2,9 @@
 A Weather-Forecast Webiste using Flask and Jinja logic.
 It will tell us the current weather.
 
-1. Haze
-2. Clear
-3. Rainy
-4. Thunderstorm
-5. Cloudy
-6. Sunny
+:fog: Haze
+:sun_with_face: Clear
+:cloud_with_rain: Rainy
+:cloud_with_lightning_and_rain: Thunderstorm
+:cloud: Cloudy
+:sunny: Sunny
