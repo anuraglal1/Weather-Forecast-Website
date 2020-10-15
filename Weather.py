@@ -1,4 +1,4 @@
-# Using City Name
+# Using City Names
 
 from flask import Flask, render_template, request, url_for
 import requests
