@@ -3,7 +3,7 @@
 from flask import Flask, render_template, request, url_for
 import requests
 
-app=Flask(__name__)
+app=Flask(__name__) 
 
 @app.route('/temperature',methods=['POST'])
 def temperature():
