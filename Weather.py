@@ -22,6 +22,11 @@ def temperature():
 def index():
     return render_template('index.html')
 
+# EndPoint to check if the app is working.
+@app.route('/info')
+def index():
+    return render_template('welcome.html')
+
 if __name__=='__main__':
     app.run(debug=True)
 
